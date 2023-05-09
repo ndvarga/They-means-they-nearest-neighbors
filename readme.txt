@@ -13,6 +13,7 @@ They-Means/They-Nearest Neighbors uses a class "Classifier" which has many attri
 Conducting this project, we learned how to practically apply our Python knowledge to solve a (relatively) complex problem. We gained valuable experience in conceptualizing code structure, problem-solving, and using data structures efficiently to implement the KNN and K-means algorithms. We also felt that this project gave us a lot of experience in object oriented programming. We would have liked to refine the point generator and the error-checking, to see how effective each K-means attempt is. We also would have liked to spend a little bit more time on the file reader so it is more seamless. Future students should start thinking about this project early in the semester and use large blocks of time to get as much done as they can at once. For KNN, we learned that the number of KNN works is dependent on the number of groups. More groups means a greater likelihood of interspersing of different groups.
 
 **Instructions:**
+The class is provided in VargaQuizhpiFinalScript.py. You can edit this to provide different outcomes, using the Classifier object and its related attributes to run different k-means simulations
 
 If you have a file of points:
 + Make sure they are organized in the format
