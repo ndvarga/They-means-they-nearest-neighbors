@@ -379,6 +379,7 @@ class Classifier:
     
         print("Amount of Time KNN sorts Correctly: ",timesCorrect, "Times KNN sorts Inccorectly: ",timesInccorect )
  
+#Examples
 
 KNNTest = Classifier(10000,5,1,0,-1000,1000)
 KNNTest.performKNN(6)
@@ -387,7 +388,7 @@ KNNTest.performKNN(6)
 fileName = 'randptz.txt'
 makePointsFile(1000, 2, -500, 500, fileName)
 inputData = Classifier.readPointsFile(fileName)
-firstClass = Classifier(inputData, 4, 1, .05)
+firstClass = Classifier(inputData, 4, 0, .05)
 
 #Testing the K-means function times
 iterList = firstClass.KMeans()
